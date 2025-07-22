@@ -70,5 +70,6 @@ class CBAM(nn.Module):
 
 ## Result
 
-![image-20250722202115329](./assets/image-20250722202115329.png)
+使用Pretrained的系列模型,设置固定种子`torch.manual_seed(51)`
 
+![image-20250722211112528](./assets/image-20250722211112528.png)
