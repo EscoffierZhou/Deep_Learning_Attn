@@ -1,3 +1,27 @@
 ![image-20250722204854288](./assets/image-20250722204854288.png)
 
-[1.CBAM(Convolutional Block Attention Module)](https://github.com/EscoffierZhou/Deep_Learning_Attn/blob/main/%E5%8D%B7%E7%A7%AF%E6%B3%A8%E6%84%8F%E5%8A%9B%E6%9C%BA%E5%88%B6(Convolutional%20Block%20Attention%20Module)/CBAM.md)
+**参考`Paper with code`**
+
+## 1.基本的Attention
+
+**自注意力(Self Attention) vs. 目标注意力 (Target Attention)**
+
+**软注意力 (Soft Attention) vs. 硬注意力 (Hard Attention)**
+
+**全局注意力 (Global Attention) vs. 局部注意力 (Local Attention)**
+
+**多头注意力 (Multi-head Attention)**
+
+## 2.自注意力与Transformer
+
+
+
+## 3.CV中的Attention
+
+
+
+## 4.Attention间的fusion
+
+
+
+## 5.前沿Attention
