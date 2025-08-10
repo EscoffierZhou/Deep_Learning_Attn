@@ -38,13 +38,15 @@
 >
 >   4.归一化
 >
->   >   除以根号下K向量维度(保证梯度稳定),然后放入softmax
+>   >   除以根号下K向量维度(保证梯度稳定),然后放入`softmax`
 >   >
 >   >   ```math
 >   >   scaled \ score(A, j) = \frac{score(A, j)}{\sqrt{(d_k)}}
 >   >   ```
 >   >
->   >   $attention \ weights_A = softmax([scaled \ score(A,1), ..., scaled \ score(A,n)])$
+>   >   ```math
+>   >   attention \ weights_A = softmax([scaled \ score(A,1), ..., scaled \ score(A,n)])
+>   >   ```
 >
 >   5.加权求和(对所有的$V_j$)
 >
