@@ -40,7 +40,9 @@
 >
 >   >   除以根号下K向量维度(保证梯度稳定),然后放入softmax
 >   >
->   >   $ scaled \ score(A, j) = \frac{score(A, j)}{\sqrt{(d_k)}}$
+>   >   ```math
+>   >   scaled \ score(A, j) = \frac{score(A, j)}{\sqrt{(d_k)}}
+>   >   ```
 >   >
 >   >   $attention \ weights_A = softmax([scaled \ score(A,1), ..., scaled \ score(A,n)])$
 >
@@ -50,7 +52,7 @@
 >   >
 >   >   是一个融合了全图所有相关像素信息的、全新的特征向量。
 
-标准自注意力公式$ softmax(\frac{QK^T}{\sqrt(d_k)}) $是置换不变 (permutation-invariant)的。
+标准自注意力公式$`softmax(\frac{QK^T}{\sqrt(d_k)})`$是置换不变 (permutation-invariant)的。
 
 这意味着如果你打乱输入序列中元素的顺序，但保持每个元素自身不变。
 
