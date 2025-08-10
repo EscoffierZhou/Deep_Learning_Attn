@@ -1,0 +1,6 @@
+-   **3. Transformer 的基石：现代注意力的奠基者**
+    -   
+    -   **自注意力 (Self-Attention)：** 在序列内部计算依赖关系，是理解现代模型的第一步。
+    -   **多头自注意力 (Multi-Head Self-Attention)：** 从不同子空间学习多样化的依赖关系，理解其并行计算的优势。
+    -   **跨注意力 (Cross-Attention)：** 连接 Encoder 和 Decoder，或用于多模态信息融合。
+-   和 RNN / CNN 的对比
