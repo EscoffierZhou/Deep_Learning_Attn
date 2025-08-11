@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+```python
 """
 一个简化且独立的 PyTorch Vision Transformer (ViT) 模型。
 
@@ -253,3 +253,4 @@ if __name__ == '__main__':
     # 计算模型参数数量
     num_params = sum(p.numel() for p in model.parameters() if p.requires_grad)
     print(f"模型总参数数量: {num_params / 1e6:.2f} M")  # ViT-Base 大约为 86M
+```
