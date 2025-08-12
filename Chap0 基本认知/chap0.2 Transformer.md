@@ -1,9 +1,5 @@
 #  Chap0.3 Transformer
 
-()
-
-![image-20250811221518455](./assets/my-plot.png)
-
 ## Attention is all you need
 
 **主流的序列传导模型基于复杂的循环或卷积神经网络(编码器-解码器架构)**
